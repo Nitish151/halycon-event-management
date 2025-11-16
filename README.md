@@ -212,6 +212,6 @@ DELETE /api/employees/1
 
 ## 🎥 Live URL
 
+[https://halycon-event-management-9652nyia9.vercel.app/](https://halycon-event-management-9652nyia9.vercel.app/)
 ---
 
-**Note:** This is a demonstration project showing full-stack development skills including REST API design, database management, React development, and UI/UX implementation.
