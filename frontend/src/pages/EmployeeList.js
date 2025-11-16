@@ -33,9 +33,10 @@ function EmployeeList() {
         setPagination(response.pagination);
       }
       
-      setEmployees(response.data);
+      setEmployees(response.data || []);
     } catch (err) {
       setError(err.response?.data?.message || 'Failed to fetch employees');
+      setEmployees([]);
     } finally {
       setLoading(false);
     }
